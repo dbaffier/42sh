@@ -26,5 +26,16 @@ Modulart part:
 - Pattern matching (globing): `*`, `?`, `[]`, `!` and the characters intervals with `\` (back-slash)
 - Tilde expansion and additional parameter formats:
   - `~`
-  - `$(paramater:-word}
-  - $(paramater:=word}
+  - `$(paramater:-word}`
+  - `$(paramater:=word}`
+  - `$(paramater:?word}`
+  - `$(paramater:+word}`
+  - `$(#paramater}`
+  - `$(paramater%}`
+  - `$(paramater%%}`
+  - `$(paramater#}`
+  - `$(parameter##}
+- Control subsitution `$()`
+- Contextual dynamic completion
+- Alias management `alias`, `unalias`
+- built-ins `test` with options: `texttt-b, -c, -d, -e, -f, -g, -L -p, -r, -S, -s, -u, -w, -x, -z, =, !=, -eq, -ne, -ge, -                                    lt, -le, !.` 
