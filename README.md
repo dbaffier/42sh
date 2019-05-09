@@ -10,3 +10,5 @@ Mandatory part:
 - Separators `;`
 - Logical operators `&&` `||`
 - Built-ins `cd` `echo` `exit` `type`
+- Monitoring of intern shell variables such as:
+  - Intern variable
