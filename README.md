@@ -46,3 +46,5 @@ Bonus:
 - Auto search of folders files ( like zsh )
 - Built-ins with lots of options
 - Globing with completion ( like zsh )
+- Unitest comparison with Bash
+- non interactive mode `42sh <file>`
