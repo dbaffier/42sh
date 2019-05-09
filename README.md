@@ -39,3 +39,10 @@ Modulart part:
 - Contextual dynamic completion
 - Alias management `alias`, `unalias`
 - built-ins `test` with options: `texttt-b, -c, -d, -e, -f, -g, -L -p, -r, -S, -s, -u, -w, -x, -z, =, !=, -eq, -ne, -ge, -                                    lt, -le, !.` 
+
+Bonus:
+- Autocompletion for everything (like zsh)
+- Compliant to POSIX Standart
+- Auto search of folders files ( like zsh )
+- Built-ins with lots of options
+- Globing with completion ( like zsh )
