@@ -3,7 +3,7 @@ This project consists in coding a fully functional shell in C.
 
 By tsisadag, gbourgeo, rfontain, dbaffier
 
-Mandatory part:
+## Mandatory features:
 - Full edition of commands line
 - Redirection and aggregation operators `>` `>>` `<` `<<` `>&` `<&`
 - Pipe `|`
@@ -21,7 +21,7 @@ Mandatory part:
   - Monitoring of all signals
 - Each built-ins must be written as posix-standart
 
-Modulart part:
+## Modular bonus features:
 - Inhibitors `" (double quote)`, `' (simple quote)` and `\`
 - Pattern matching (globing): `*`, `?`, `[]`, `!` and the characters intervals with `\` (back-slash)
 - Tilde expansion and additional parameter formats:
@@ -40,7 +40,7 @@ Modulart part:
 - Alias management `alias`, `unalias`
 - built-ins `test` with options: `texttt-b, -c, -d, -e, -f, -g, -L -p, -r, -S, -s, -u, -w, -x, -z, =, !=, -eq, -ne, -ge, -                                    lt, -le, !.` 
 
-Bonus:
+## Bonus:
 - Autocompletion for everything (like zsh)
 - Compliant to POSIX Standart
 - Auto search of folders files ( like zsh )
